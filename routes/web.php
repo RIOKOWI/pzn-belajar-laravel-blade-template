@@ -22,3 +22,9 @@ Route::get('/halo', function() {
     return view('hello', ['nama' => 'Gus Fring']);
 });
 Route::view('/hello', 'hello', ['nama' => 'del Rio']);
+
+
+// NESTED VIEW DIRECTORY
+Route::get('/nest', function() {
+    return view('hello.world', ['nama' => 'Gus Bul']);
+});

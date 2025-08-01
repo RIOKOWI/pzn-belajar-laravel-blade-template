@@ -70,3 +70,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 menampilkan view {{ $nama }}
 
 contoh di file:
+web.php
+ViewTest.php
+hello.blade.php
+
+## NESTED VIEW DIRECTORY
+contoh di file :
