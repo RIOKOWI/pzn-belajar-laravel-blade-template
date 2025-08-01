@@ -76,3 +76,10 @@ hello.blade.php
 
 ## NESTED VIEW DIRECTORY
 contoh di file :
+web.php
+ViewTest.php
+world.blade.php
+
+## TEST VIEW TANPA ROUTING
+contoh di file :
+ViewTest.php

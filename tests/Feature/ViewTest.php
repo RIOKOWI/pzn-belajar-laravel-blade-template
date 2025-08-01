@@ -30,4 +30,15 @@ class ViewTest extends TestCase
         $this->get('/nest')
         ->assertSeeText("Gus Bul");
     }
+    public function testView2NoRoute()
+    {
+        $this->view('hello', ['nama' => 'Ucluk'])
+        ->assertSeeText("Ucluk");
+    }
+
+    public function testNestedViewNoRoute() 
+    {
+        $this->view('hello.world', ['nama' => 'Usep'])
+        ->assertSeeText("Usep");
+    }
 }
