@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// RENDERING VIEW
+Route::get('/halo', function() {
+    return view('hello', ['nama' => 'Gus Fring']);
+});
+Route::view('/hello', 'hello', ['nama' => 'del Rio']);
