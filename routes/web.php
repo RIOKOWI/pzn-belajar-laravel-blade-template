@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -27,4 +28,9 @@ Route::view('/hello', 'hello', ['nama' => 'del Rio']);
 // NESTED VIEW DIRECTORY
 Route::get('/nest', function() {
     return view('hello.world', ['nama' => 'Gus Bul']);
+});
+
+//HTML ENCODING
+Route::get('/html', function(Request $request) {
+    return view('html-encoding', ['name' => $request->input('name')]);
 });

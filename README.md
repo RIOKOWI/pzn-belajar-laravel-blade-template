@@ -88,3 +88,9 @@ ViewTest.php
 contoh di file :
 comment.blade.php
 CommentTest.php
+
+## HTML ENCODING
+{!! $variable !!}
+contoh di file :
+web.php
+html-encoding.blade.php
