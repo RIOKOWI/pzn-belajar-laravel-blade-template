@@ -83,3 +83,8 @@ world.blade.php
 ## TEST VIEW TANPA ROUTING
 contoh di file :
 ViewTest.php
+
+## COMMENT
+contoh di file :
+comment.blade.php
+CommentTest.php
