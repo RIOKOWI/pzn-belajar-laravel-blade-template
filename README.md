@@ -101,3 +101,12 @@ html-encoding.blade.php
 @verbatim
 @endverbatim
 contoh di file :
+web.php
+disabled-blade.php
+
+## IF STATEMENT
+(@if, @elseif, @else, @endif)
+contoh di file :
+if.blade.php
+IfTest.php
+
