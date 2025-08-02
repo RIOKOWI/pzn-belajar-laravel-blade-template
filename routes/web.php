@@ -34,3 +34,8 @@ Route::get('/nest', function() {
 Route::get('/html', function(Request $request) {
     return view('html-encoding', ['name' => $request->input('name')]);
 });
+
+//DISABLED BLADE
+Route::get('/disabled', function(){
+    return view('disabled-blade');
+});

@@ -94,3 +94,10 @@ CommentTest.php
 contoh di file :
 web.php
 html-encoding.blade.php
+
+## DISABLED BLADE
+@{{ $rio }}
+@@if
+@verbatim
+@endverbatim
+contoh di file :
