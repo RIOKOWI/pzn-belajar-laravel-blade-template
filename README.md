@@ -110,3 +110,11 @@ contoh di file :
 if.blade.php
 IfTest.php
 
+## UNLESS STATEMENT
+kebalikannya if state
+@unless
+@endunless
+contoh di file :
+unless.blade.php
+UnlessTest.php
+
