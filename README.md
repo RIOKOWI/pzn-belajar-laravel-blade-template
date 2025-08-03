@@ -124,3 +124,9 @@ UnlessTest.php
 contoh di file :
 isset-empty.blade.php
 IssetEmptyTest.php
+
+## ENV
+@env = cek apakah variable ada di env
+contoh di file :
+env.blade.php
+EnvTest.php
