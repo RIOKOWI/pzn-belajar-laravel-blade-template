@@ -130,3 +130,13 @@ IssetEmptyTest.php
 contoh di file :
 env.blade.php
 EnvTest.php
+
+## SWITCH STATEMENT
+@switch
+kombinasikan dengan :
+@case
+@break
+@default
+contoh di file :
+switch.blade.php
+SwitchTest.php
