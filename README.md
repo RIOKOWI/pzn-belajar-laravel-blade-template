@@ -118,3 +118,9 @@ contoh di file :
 unless.blade.php
 UnlessTest.php
 
+## ISSET & EMPTY
+@isset = cek apakah variable ada
+@empty = cek apakah variable merupakan array kosong
+contoh di file :
+isset-empty.blade.php
+IssetEmptyTest.php
