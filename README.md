@@ -159,3 +159,11 @@ menampilkan data array yang tidak ada
 contoh di file :
 ForElse.blade.php
 ForElseTest.blade.php
+
+## RAW PHP
+@php
+NOTE :
+usahakan jangan sering di gunakan di bagian view gunakan di controller saja
+contoh di file :
+rawPhp.blade.php
+RawPhpTest.php
