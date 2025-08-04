@@ -168,6 +168,14 @@ contoh di file :
 rawPhp.blade.php
 RawPhpTest.php
 
-
 ## WHILE LOOP
 @while
+contoh di file :
+while.blade.php
+WhileTest.php
+
+## LOOP VARIABLE
+$loop
+contoh di file :
+loopVariable.blade.php
+LoopVariableTest.php
