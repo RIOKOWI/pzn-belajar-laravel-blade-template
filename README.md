@@ -141,5 +141,14 @@ contoh di file :
 switch.blade.php
 SwitchTest.php
 
-## FOR LOOP
+## FOR LOOP 
 @for
+contoh di file :
+ForLoop.blade.php
+ForTest.blade.php
+
+## FOR EACH
+@foreach
+contoh di file :
+ForEach.blade.php
+ForEachTest.blade.php
