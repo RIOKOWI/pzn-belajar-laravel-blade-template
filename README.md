@@ -167,3 +167,7 @@ usahakan jangan sering di gunakan di bagian view gunakan di controller saja
 contoh di file :
 rawPhp.blade.php
 RawPhpTest.php
+
+
+## WHILE LOOP
+@while
