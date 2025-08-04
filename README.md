@@ -140,3 +140,6 @@ kombinasikan dengan :
 contoh di file :
 switch.blade.php
 SwitchTest.php
+
+## FOR LOOP
+@for
