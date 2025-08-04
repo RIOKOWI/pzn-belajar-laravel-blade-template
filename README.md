@@ -152,3 +152,10 @@ ForTest.blade.php
 contoh di file :
 ForEach.blade.php
 ForEachTest.blade.php
+
+## FOR ELSE
+menampilkan data array yang tidak ada
+@forelse
+contoh di file :
+ForElse.blade.php
+ForElseTest.blade.php
