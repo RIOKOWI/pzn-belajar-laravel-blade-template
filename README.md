@@ -182,4 +182,15 @@ LoopVariableTest.php
 
 ## CSS CLASS
 @class
+contoh di file :
+css.blade.php
+CssTest.php
 
+## INCLUDE
+@include
+contoh di file :
+header.blade.php
+include.blade.php
+IncludeTest.php
+
+## INCLUDE PARAMETER
