@@ -18,11 +18,15 @@ class IncludeTest extends TestCase
         $this->view('include', [])
         ->assertSeeText('Rio Achyar')
         ->assertSeeText('Welcome')
-        ->assertSeeText('dimsum rafi');
-
+        ->assertSeeText('dimsum rafi')
+        ->assertSeeText('juned')
+        ;
+        
         $this->view('include', ['title' => 'Embut'])
         ->assertSeeText('Embut')
         ->assertSeeText('Welcome')
-        ->assertSeeText('dimsum rafi');
+        ->assertSeeText('dimsum rafi')
+        ->assertSeeText('juned')
+        ;
     }
 }

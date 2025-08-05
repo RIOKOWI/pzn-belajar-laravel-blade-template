@@ -7,3 +7,7 @@
 @isset($description)
     <p>{{ $description }}</p>
 @endisset
+
+@isset($danta)
+    <p>{{ $danta }}</p>
+@endisset
