@@ -1,6 +1,6 @@
 <html>
     <body>
-      @include('header')  
+      @include('header', ['description' => 'dimsum rafi'])  
       <p>Welcome</p>
     </body>
 </html>

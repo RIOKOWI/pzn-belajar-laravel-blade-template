@@ -194,3 +194,9 @@ include.blade.php
 IncludeTest.php
 
 ## INCLUDE PARAMETER
+@include(template, data)
+contoh di file :
+header.blade.php
+include.blade.php
+IncludeTest.php
+

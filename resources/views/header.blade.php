@@ -3,3 +3,7 @@
 @else
     <h1>Rio Achyar</h1>
 @endisset
+
+@isset($description)
+    <p>{{ $description }}</p>
+@endisset
