@@ -179,3 +179,7 @@ $loop
 contoh di file :
 loopVariable.blade.php
 LoopVariableTest.php
+
+## CSS CLASS
+@class
+
