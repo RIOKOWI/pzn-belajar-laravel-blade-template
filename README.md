@@ -200,3 +200,11 @@ header.blade.php
 include.blade.php
 IncludeTest.php
 
+
+## INCLUDE CONDITION
+@includeWhen(kondisi, template, data) = kondisi true
+@includeUnless(kondisi, template, data) = kondisi false
+contoh di file :
+header-admin.blade.php
+include-condition.blade.php
+includeCondition.php
