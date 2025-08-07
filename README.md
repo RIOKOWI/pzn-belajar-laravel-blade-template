@@ -253,3 +253,16 @@ ErrorTest.php
 contoh di file :
 stack.blade.php
 StackTest.php
+
+## TEMPLATE INHERITANCE
+PARENT LAYOUT
+@yield(nama, default)
+
+CHILD LAYOUT
+extends(parentLayout)
+@section(name) = dieksekusi di posisi @yield
+
+contoh di file :
+parent.blade.php
+child.blade.php
+TemplateInheritanceTest.php
