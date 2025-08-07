@@ -217,3 +217,12 @@ contoh di file :
 user.blade.php
 each.blade.php
 EachOnceTest.php
+
+## FORM
+@checked(kondisi)
+@selected(kondisi)
+@disabled(kondisi)
+@readonly(kondisi)
+@required(kondisi)
+jika true otomatis akan di jalankan
+lebih mudah dbandingkan directive @if secara manual
