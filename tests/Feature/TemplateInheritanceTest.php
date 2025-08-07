@@ -20,4 +20,22 @@ class TemplateInheritanceTest extends TestCase
         ->assertSeeText('BAGIAN HEADER')
         ->assertSeeText('bagian content');
     }
+
+    // public function testShowWoOverride()
+    // {
+    //     $this->view('child-show', [])
+    //     ->assertSeeText('Apk Mbut')
+    //     ->assertSeeText('DEFAULT HEADER')
+    //     ->assertSeeText('default content');
+    // }
+
+    public function testShowWOverride()
+    {
+        $this->view('child-show', [])
+        ->assertSeeText('Apk Mbut')
+        ->assertSeeText('DEFAULT HEADER')
+        ->assertSeeText('embut')
+        ->assertSeeText('budi');
+    }
 }
+    

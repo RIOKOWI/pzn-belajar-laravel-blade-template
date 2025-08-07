@@ -265,4 +265,6 @@ extends(parentLayout)
 contoh di file :
 parent.blade.php
 child.blade.php
+parent-show.blade.php
+child-show.blade.php
 TemplateInheritanceTest.php
