@@ -226,3 +226,13 @@ EachOnceTest.php
 @required(kondisi)
 jika true otomatis akan di jalankan
 lebih mudah dbandingkan directive @if secara manual
+
+contoh di file :
+form.blade.php
+FormTest.php
+
+## CSRF
+contoh di file :
+csrf.blade.php
+CSRFTest.php
+
