@@ -236,3 +236,10 @@ contoh di file :
 csrf.blade.php
 CSRFTest.php
 
+## ERROR
+@error(field)
+$message = menangkap error
+
+contoh di file :
+error.blade.php
+ErrorTest.php
