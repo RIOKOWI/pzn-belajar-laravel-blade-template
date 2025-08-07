@@ -200,7 +200,6 @@ header.blade.php
 include.blade.php
 IncludeTest.php
 
-
 ## INCLUDE CONDITION
 @includeWhen(kondisi, template, data) = kondisi true
 @includeUnless(kondisi, template, data) = kondisi false
@@ -208,3 +207,13 @@ contoh di file :
 header-admin.blade.php
 include-condition.blade.php
 includeCondition.php
+
+## EACH & ONCE
+@each(template, array, variable) = include template berkali-kali sesuai iterasi jumlah array, dimana data tiap array bisa diakses dengan variable di template nya
+
+@once = disimpan di layout, secara otomatis jika layout tersebut di tampilkan berkali kali, bagian @once hanya di tampilkan sekali saja
+
+contoh di file : 
+user.blade.php
+each.blade.php
+EachOnceTest.php
