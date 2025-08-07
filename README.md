@@ -243,3 +243,13 @@ $message = menangkap error
 contoh di file :
 error.blade.php
 ErrorTest.php
+
+## STACK
+@push(name stacknya) = secara default mengirim data ke posisi paling belakang
+@prepend(name stacknya) = mengirim data ke posisi paling awal
+@pushIf(kondisi, nama stack) 
+@stack(name stacknya) = menampilkan semua data yg terdapat di stack
+
+contoh di file :
+stack.blade.php
+StackTest.php
