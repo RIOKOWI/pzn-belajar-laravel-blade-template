@@ -278,3 +278,5 @@ service-injection.blade.php
 ServiceInjectionTest.php
 SayHello.php
 
+## BLADE FACADE
+FITUR INLINE BLADE TEMPLATE = me render template tanpa harus membuat file template
