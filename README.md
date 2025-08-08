@@ -298,3 +298,14 @@ ExtendingTest.php
 Blade::stringable(class, function)
 
 contoh di file :
+Person.php
+AppServiceProvider.php
+echo.blade.php
+EchoTest.php
+
+## OPTIMIZE TEMPLATE
+php artisan view:cache = melihat cache template
+php artisan view:clear = menghapus cache template
+
+contoh di file :
+storage/framework/views
