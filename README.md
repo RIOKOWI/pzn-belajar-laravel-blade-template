@@ -293,3 +293,8 @@ contoh di file :
 AppServiceProvider.php
 extending.blade.php
 ExtendingTest.php
+
+## CUSTOM ECHO HANDLER
+Blade::stringable(class, function)
+
+contoh di file :
