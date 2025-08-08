@@ -268,3 +268,13 @@ child.blade.php
 parent-show.blade.php
 child-show.blade.php
 TemplateInheritanceTest.php
+
+## SERVICE INJECTION
+@inject(variable, service) = service yang kita ambil akan disimpan di variable
+
+contoh di file :
+AppServiceProvider.php
+service-injection.blade.php
+ServiceInjectionTest.php
+SayHello.php
+
