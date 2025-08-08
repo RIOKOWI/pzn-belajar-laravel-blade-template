@@ -278,5 +278,18 @@ service-injection.blade.php
 ServiceInjectionTest.php
 SayHello.php
 
-## BLADE FACADE
-FITUR INLINE BLADE TEMPLATE = me render template tanpa harus membuat file template
+## INLINE BLADE TEMPLATE
+Blade::render
+FITUR = me render template tanpa harus membuat file template
+
+contoh di file :
+InlineBladeTemplateTest.php
+
+## EXTENDING BLADE TEMPLATE
+Blade::directive(nama, function)
+perlu regis ke service provider agar aman
+
+contoh di file :
+AppServiceProvider.php
+extending.blade.php
+ExtendingTest.php
