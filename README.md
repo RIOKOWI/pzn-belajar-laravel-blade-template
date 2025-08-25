@@ -65,34 +65,48 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+## ########################################################################################################
+
+## SLIDE
+https://docs.google.com/presentation/d/1eu6df-Ki6fNJirN5Odnx692TglcLkOQCNERII7PBwN8/edit?slide=id.p#slide=id.p
+
+## SOURCE CODE
+https://github.com/ProgrammerZamanNow/belajar-laravel-blade-template
 
 ## MENAMPILKAN VIEW
 menampilkan view {{ $nama }}
 
 contoh di file:
 web.php
+LINE 21-25
 ViewTest.php
+LINE 
 hello.blade.php
 
 ## NESTED VIEW DIRECTORY
 contoh di file :
 web.php
+LINE 28-31
 ViewTest.php
+LINE 
 world.blade.php
 
 ## TEST VIEW TANPA ROUTING
 contoh di file :
 ViewTest.php
+LINE 
 
 ## COMMENT
 contoh di file :
 comment.blade.php
 CommentTest.php
+LINE 
 
 ## HTML ENCODING
 {!! $variable !!}
 contoh di file :
 web.php
+LINE 33-36
 html-encoding.blade.php
 
 ## DISABLED BLADE
@@ -102,6 +116,7 @@ html-encoding.blade.php
 @endverbatim
 contoh di file :
 web.php
+LINE 38-41
 disabled-blade.php
 
 ## IF STATEMENT
@@ -109,6 +124,7 @@ disabled-blade.php
 contoh di file :
 if.blade.php
 IfTest.php
+LINE 
 
 ## UNLESS STATEMENT
 kebalikannya if state
@@ -117,6 +133,7 @@ kebalikannya if state
 contoh di file :
 unless.blade.php
 UnlessTest.php
+LINE 
 
 ## ISSET & EMPTY
 @isset = cek apakah variable ada
@@ -124,12 +141,14 @@ UnlessTest.php
 contoh di file :
 isset-empty.blade.php
 IssetEmptyTest.php
+LINE 
 
 ## ENV
 @env = cek apakah variable ada di env
 contoh di file :
 env.blade.php
 EnvTest.php
+LINE 
 
 ## SWITCH STATEMENT
 @switch
@@ -140,18 +159,21 @@ kombinasikan dengan :
 contoh di file :
 switch.blade.php
 SwitchTest.php
+LINE 
 
 ## FOR LOOP 
 @for
 contoh di file :
 ForLoop.blade.php
 ForTest.blade.php
+LINE 
 
 ## FOR EACH
 @foreach
 contoh di file :
 ForEach.blade.php
 ForEachTest.blade.php
+LINE 
 
 ## FOR ELSE
 menampilkan data array yang tidak ada
@@ -159,6 +181,7 @@ menampilkan data array yang tidak ada
 contoh di file :
 ForElse.blade.php
 ForElseTest.blade.php
+LINE 
 
 ## RAW PHP
 @php
@@ -167,24 +190,28 @@ usahakan jangan sering di gunakan di bagian view gunakan di controller saja
 contoh di file :
 rawPhp.blade.php
 RawPhpTest.php
+LINE 
 
 ## WHILE LOOP
 @while
 contoh di file :
 while.blade.php
 WhileTest.php
+LINE 
 
 ## LOOP VARIABLE
 $loop
 contoh di file :
 loopVariable.blade.php
 LoopVariableTest.php
+LINE 
 
 ## CSS CLASS
 @class
 contoh di file :
 css.blade.php
 CssTest.php
+LINE 
 
 ## INCLUDE
 @include
@@ -192,6 +219,7 @@ contoh di file :
 header.blade.php
 include.blade.php
 IncludeTest.php
+LINE 
 
 ## INCLUDE PARAMETER
 @include(template, data)
@@ -199,6 +227,7 @@ contoh di file :
 header.blade.php
 include.blade.php
 IncludeTest.php
+LINE 
 
 ## INCLUDE CONDITION
 @includeWhen(kondisi, template, data) = kondisi true
@@ -217,6 +246,7 @@ contoh di file :
 user.blade.php
 each.blade.php
 EachOnceTest.php
+LINE 
 
 ## FORM
 @checked(kondisi)
@@ -230,11 +260,13 @@ lebih mudah dbandingkan directive @if secara manual
 contoh di file :
 form.blade.php
 FormTest.php
+LINE 
 
 ## CSRF
 contoh di file :
 csrf.blade.php
 CSRFTest.php
+LINE 
 
 ## ERROR
 @error(field)
@@ -243,6 +275,7 @@ $message = menangkap error
 contoh di file :
 error.blade.php
 ErrorTest.php
+LINE 
 
 ## STACK
 @push(name stacknya) = secara default mengirim data ke posisi paling belakang
@@ -253,6 +286,7 @@ ErrorTest.php
 contoh di file :
 stack.blade.php
 StackTest.php
+LINE 
 
 ## TEMPLATE INHERITANCE
 PARENT LAYOUT
@@ -268,6 +302,7 @@ child.blade.php
 parent-show.blade.php
 child-show.blade.php
 TemplateInheritanceTest.php
+LINE 
 
 ## SERVICE INJECTION
 @inject(variable, service) = service yang kita ambil akan disimpan di variable
@@ -276,6 +311,7 @@ contoh di file :
 AppServiceProvider.php
 service-injection.blade.php
 ServiceInjectionTest.php
+LINE 
 SayHello.php
 
 ## INLINE BLADE TEMPLATE
@@ -284,6 +320,7 @@ FITUR = me render template tanpa harus membuat file template
 
 contoh di file :
 InlineBladeTemplateTest.php
+LINE 
 
 ## EXTENDING BLADE TEMPLATE
 Blade::directive(nama, function)
@@ -293,6 +330,7 @@ contoh di file :
 AppServiceProvider.php
 extending.blade.php
 ExtendingTest.php
+LINE 
 
 ## CUSTOM ECHO HANDLER
 Blade::stringable(class, function)
@@ -302,6 +340,7 @@ Person.php
 AppServiceProvider.php
 echo.blade.php
 EchoTest.php
+LINE 
 
 ## OPTIMIZE TEMPLATE
 php artisan view:cache = melihat cache template
